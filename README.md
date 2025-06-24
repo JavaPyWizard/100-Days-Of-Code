@@ -63,3 +63,13 @@ Welcome to my #100DaysOfCode journey! 🌟 This repo documents my daily progress
 ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)
 
+
+## 🌍 Let's Connect
+
+<div align="center" style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2)](https://www.linkedin.com/in/divyansh-kumar-singh-028747321/)
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=FFA116)](https://leetcode.com/u/JavaPyWizard/)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836)](mailto:divyanshkumarsingh29@gmail.com)
+
+</div>
