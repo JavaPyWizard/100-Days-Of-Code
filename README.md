@@ -35,7 +35,7 @@ Welcome to my #100DaysOfCode journey! 🌟 This repo documents my daily progress
 | **Web Dev**  | 🟠 **Warming Up**      | 🔴 **0/100 Days**         | HTML/CSS Basics        |
 | **Data Sci** | 🟠 **Warming Up**      | 🔴 **0/100 Days**         | Pandas & Visualization |
 
-**Countdown to Official Start:** 🎂 **5 days left!**  
+**Countdown to Official Start:** 🎂 **3 days left!**  
 
 ## 🛠 Tech Stack to be *Mastered and Used*
 
