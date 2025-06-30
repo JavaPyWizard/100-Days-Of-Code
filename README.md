@@ -1,7 +1,7 @@
 # 🚀 100 Days of Code Challenge - Python | JavaScript | DSA | Web Dev | Data Science
 
 ## Official Start Date: 🎂 July 1, 2025 (My Birthday!)  
-## Current Phase: 🔥 Pre-Launch Prep (June 25-30)
+## Current Phase: 🚀 Live! Day 1 of 100
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
@@ -29,13 +29,22 @@ Welcome to my #100DaysOfCode journey! 🌟 This repo documents my daily progress
 
 ## 📌 Progress Overview  
 
-| Track         | Pre-Launch Prep (June) | Official Challenge (July+) | Current Focus          |
-|--------------|-----------------------|---------------------------|------------------------|
-| **DSA**      | 🟠 **Warming Up**      | 🔴 **0/100 Days**         | Linked Lists           |
-| **Web Dev**  | 🟠 **Warming Up**      | 🔴 **0/100 Days**         | HTML/CSS Basics        |
-| **Data Sci** | 🟠 **Warming Up**      | 🔴 **0/100 Days**         | Pandas & Visualization |
+| Track         | Pre-Launch Prep (June) | Official Challenge (July+) |
+|--------------|-----------------------|---------------------------|
+| **DSA**      | ✅ **Done**       | 🟢 **1/100 Days**         | 
+| **Web Dev**  | ✅ **Done**       | 🟢 **1/100 Days**         | 
+| **Data Sci** | ✅ **Done**       | 🟢 **1/100 Days**         | 
 
-**Countdown to Official Start:** 🎂 **2 days left!**  
+**Challenge Status:** ✅ **Started Today — Day 1!**
+
+---
+
+## 📈 Track My Journey
+
+- 🗓️ [See my daily progress → `Progress.md`](https://github.com/JavaPyWizard/100-Days-Of-Code/blob/main/Progress.md)
+- 🛣️ [View my complete plan & roadmap → `Planner.md`](https://github.com/JavaPyWizard/100-Days-Of-Code/blob/main/Planner.md)
+
+---
 
 ## 🛠 Tech Stack to be *Mastered and Used*
 
