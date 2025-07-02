@@ -2,8 +2,6 @@
 
 ---
 
-### 📘 **C String Functions: `strstr()` vs `strtok()`**
-
 | **Function** | **Usage**                                                     | **Header**   | **Returns**                          |
 | ------------ | ------------------------------------------------------------- | ------------ | ------------------------------------ |
 | `strstr()`   | Finds the **first occurrence of a substring** in a string     | `<string.h>` | Pointer to the first match or `NULL` |
