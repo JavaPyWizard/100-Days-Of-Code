@@ -31,21 +31,46 @@ int main()
 
 bool isAnagram(const char s1[100], const char s2[100])
 {
+
+    // O(n logn)
+    int count[256] = {0};
+
+    // If lengths differ, not anagrams
     if (strlen(s1) != strlen(s2))
         return false;
 
-    char *sorted1 = sortedString(s1);
-    char *sorted2 = sortedString(s2);
+    // Count characters in both strings
+    for (int i = 0; s1[i] && s2[i]; i++)
+    {
+        count[(unsigned char)s1[i]]++;
+        count[(unsigned char)s2[i]]--;
+    }
 
-    if (sorted1 == NULL || sorted2 == NULL)
-        return false;
+    // If all counts are zero, it's an anagram
+    for (int i = 0; i < 256; i++)
+    {
+        if (count[i] != 0)
+            return false;
+    }
 
-    bool result = (strcmp(sorted1, sorted2) == 0);
+    return true;
 
-    free(sorted1);
-    free(sorted2);
+    // // O(n)
+    // if (strlen(s1) != strlen(s2))
+    //     return false;
 
-    return result;
+    // char *sorted1 = sortedString(s1);
+    // char *sorted2 = sortedString(s2);
+
+    // if (sorted1 == NULL || sorted2 == NULL)
+    //     return false;
+
+    // bool result = (strcmp(sorted1, sorted2) == 0);
+
+    // free(sorted1);
+    // free(sorted2);
+
+    // return result;
 }
 
 char *sortedString(const char *str)
