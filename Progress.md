@@ -45,6 +45,5 @@
 
 ---
 
-✅ *Keep logging consistently — small progress compounds!*
 
 > “Discipline is choosing between what you want now and what you want most.” – Abraham Lincoln
