@@ -19,7 +19,7 @@
   ▸ Set up `ml-env` virtual environment  
   ▸ Installed JupyterLab and NumPy  
 - **Web Development:**  
-  ▸ Learned HTML basics (structure, tags)
+  ▸ Learned HTML basics (structure)
 
 ---
 
