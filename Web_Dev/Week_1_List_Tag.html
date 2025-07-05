@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML List Tags Complete</title>
+  </head>
+  <body>
+    <h1>HTML List Tags</h1>
+    <p>HTML supports three types of lists:</p>
+
+    <ul>
+      <li><strong>Unordered List</strong> - <code>&lt;ul&gt;</code></li>
+      <li><strong>Ordered List</strong> - <code>&lt;ol&gt;</code></li>
+      <li><strong>Description List</strong> - <code>&lt;dl&gt;</code></li>
+    </ul>
+
+    <!-- Unordered List -->
+    <h2>1. Unordered List &lt;ul&gt;</h2>
+    <p>Used when the order of items doesn’t matter.</p>
+
+    <h3>Syntax</h3>
+    <pre><code>&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+    <h3>Example</h3>
+    <ul>
+      <li>Frontend</li>
+      <li>Backend</li>
+      <li>Database</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h2>2. Ordered List &lt;ol&gt;</h2>
+    <p>Used when the order of items is important.</p>
+
+    <h3>Syntax</h3>
+    <pre><code>&lt;ol&gt;
+  &lt;li&gt;Step 1&lt;/li&gt;
+  &lt;li&gt;Step 2&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+
+    <h3>Example</h3>
+    <ol>
+      <li>Install Python</li>
+      <li>Write Code</li>
+      <li>Run Script</li>
+    </ol>
+
+    <h3>Ordered List Types</h3>
+    <p>Use <code>type</code> attribute to change marker:</p>
+    <ul>
+      <li><code>type="1"</code> – Numbers (default)</li>
+      <li><code>type="A"</code> – Uppercase letters</li>
+      <li><code>type="a"</code> – Lowercase letters</li>
+      <li><code>type="I"</code> – Upper Roman</li>
+      <li><code>type="i"</code> – Lower Roman</li>
+    </ul>
+
+    <h3>Example with type="A"</h3>
+    <pre><code>&lt;ol type="A"&gt;
+  &lt;li&gt;Apple&lt;/li&gt;
+  &lt;li&gt;Banana&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+    <ol type="A">
+      <li>Apple</li>
+      <li>Banana</li>
+    </ol>
+
+    <h3>Example with start and value</h3>
+    <pre><code>&lt;ol start="5"&gt;
+  &lt;li&gt;Fifth Step&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ol&gt;
+  &lt;li value="10"&gt;Manual Start&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+
+    <ol start="5">
+      <li>Fifth Step</li>
+      <li>Sixth Step</li>
+    </ol>
+
+    <ol>
+      <li value="10">Manual Start</li>
+      <li>Next Item</li>
+    </ol>
+
+    <!-- Description List -->
+    <h2>3. Description List &lt;dl&gt;</h2>
+    <p>Used to describe terms and definitions.</p>
+
+    <h3>Syntax</h3>
+    <pre><code>&lt;dl&gt;
+  &lt;dt&gt;Term&lt;/dt&gt;
+  &lt;dd&gt;Description&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+
+    <h3>Example</h3>
+    <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+    </dl>
+
+    <!-- Nested Lists -->
+    <h2>4. Nested List</h2>
+
+    <h3>Syntax</h3>
+    <pre><code>&lt;ul&gt;
+  &lt;li&gt;Main
+    &lt;ul&gt;
+      &lt;li&gt;Sub-item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+    <h3>Example</h3>
+    <ul>
+      <li>
+        Frontend
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </li>
+      <li>
+        Backend
+        <ul>
+          <li>Node.js</li>
+          <li>PHP</li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- List Marker Types -->
+    <h2>5. Unordered List Marker Types</h2>
+
+    <h3>● Default (filled circle)</h3>
+    <pre><code>&lt;ul&gt;
+  &lt;li&gt;Frontend&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+    <ul>
+      <li>Frontend</li>
+      <li>Backend</li>
+    </ul>
+
+    <h3>○ Hollow Circle — type="circle"</h3>
+    <pre><code>&lt;ul type="circle"&gt;
+  &lt;li&gt;HTML&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+    <ul type="circle">
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+
+    <h3>■ Square — type="square"</h3>
+    <pre><code>&lt;ul type="square"&gt;
+  &lt;li&gt;Node.js&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+    <ul type="square">
+      <li>Node.js</li>
+      <li>PHP</li>
+    </ul>
+
+    <!-- Attributes Table -->
+    <h2>Common Attributes</h2>
+    <table border="1">
+      <tr>
+        <th>Tag</th>
+        <th>Attribute</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>&lt;ol&gt;</td>
+        <td>type</td>
+        <td>Set list style (1, A, a, i, I)</td>
+      </tr>
+      <tr>
+        <td>&lt;ol&gt;</td>
+        <td>start</td>
+        <td>Start counting from a specific number</td>
+      </tr>
+      <tr>
+        <td>&lt;li&gt;</td>
+        <td>value</td>
+        <td>Set custom number for individual list item</td>
+      </tr>
+      <tr>
+        <td>&lt;ul&gt;</td>
+        <td>type</td>
+        <td>Set bullet style (disc, circle, square)</td>
+      </tr>
+    </table>
+
+    <!-- Best Practices -->
+    <h2>Best Practices</h2>
+    <ul>
+      <li>✅ Use unordered lists for unordered data</li>
+      <li>✅ Use ordered lists for steps or sequences</li>
+      <li>✅ Use description lists for glossary or FAQ-type data</li>
+      <li>✅ Avoid over-nesting; max 2–3 levels deep</li>
+      <li>❌ Don’t use ordered lists when sequence doesn’t matter</li>
+    </ul>
+  </body>
+</html>

@@ -172,10 +172,12 @@ The `<br>` tag is used to insert a **single line break**, without starting a new
 ```html
 <h3>Hi!</h3>
 <br />
-<h3>Hello</h3><br /><p>Bye</p>
+<h3>Hello</h3>
+<br />
+<p>Bye</p>
 ```
 
- **Note:**
+**Note:**
 
 - Also a **self-closing tag**.
 - Useful for poetry, addresses, or breaking lines **without extra spacing** like `<p>` would.
@@ -190,9 +192,11 @@ The `<br>` tag is used to insert a **single line break**, without starting a new
 | `<br>` | Breaks the line, continues same paragraph |
 
 ---
+
 ## 6. **HTML Anchor Tag `<a>`**
 
 The `<a>` tag is used to create **hyperlinks** in HTML. It allows users to navigate to:
+
 - External or internal web pages
 - Email addresses
 - Downloadable files
@@ -200,7 +204,8 @@ The `<a>` tag is used to create **hyperlinks** in HTML. It allows users to navig
 
 ---
 
-###  **Syntax**
+### **Syntax**
+
 ```html
 <a href="URL">Link Text</a>
 ```
@@ -210,36 +215,39 @@ The `<a>` tag is used to create **hyperlinks** in HTML. It allows users to navig
 
 ---
 
-###  **Definition & Purpose**
+### **Definition & Purpose**
 
-| Tag      | Purpose                                               |
-|----------|--------------------------------------------------------|
-| `<a>`    | Defines a hyperlink. Uses `href` to specify the destination. |
-
----
-
-###  **Types of URLs**
-
-| Type           | Description                                            | Example |
-|----------------|--------------------------------------------------------|---------|
-| **Absolute URL** | Full web address including protocol (https://)         | `<a href="https://example.com">Visit</a>` |
-| **Relative URL** | Local path relative to current file                   | `<a href="folder/page.html">Visit Local</a>` |
+| Tag   | Purpose                                                      |
+| ----- | ------------------------------------------------------------ |
+| `<a>` | Defines a hyperlink. Uses `href` to specify the destination. |
 
 ---
 
-###  **Examples**
+### **Types of URLs**
+
+| Type             | Description                                    | Example                                      |
+| ---------------- | ---------------------------------------------- | -------------------------------------------- |
+| **Absolute URL** | Full web address including protocol (https://) | `<a href="https://example.com">Visit</a>`    |
+| **Relative URL** | Local path relative to current file            | `<a href="folder/page.html">Visit Local</a>` |
+
+---
+
+### **Examples**
 
 #### 🔗 External Link
+
 ```html
 <a href="https://www.google.com">Visit Google</a>
 ```
 
-####  Open in New Tab
+#### Open in New Tab
+
 ```html
 <a href="https://openai.com" target="_blank">OpenAI</a>
 ```
 
-####  Link to Section on Same Page
+#### Link to Section on Same Page
+
 ```html
 <a href="#contact">Go to Contact Section</a>
 
@@ -247,54 +255,59 @@ The `<a>` tag is used to create **hyperlinks** in HTML. It allows users to navig
 <h2 id="contact">Contact Section</h2>
 ```
 
-####  Email Link
+#### Email Link
+
 ```html
 <a href="mailto:someone@example.com">Send Email</a>
 ```
 
-####  Download File
+#### Download File
+
 ```html
 <a href="resume.pdf" download>Download Resume</a>
 ```
 
-####  Tooltip (title)
+#### Tooltip (title)
+
 ```html
 <a href="https://example.com" title="Click to visit">Hover Me</a>
 ```
 
-####  Tracking with `ping`
+#### Tracking with `ping`
+
 ```html
 <a href="https://example.com" ping="https://tracker.com/ping">Tracked Link</a>
 ```
 
 ---
 
-###  **Common Attributes of `<a>`**
+### **Common Attributes of `<a>`**
 
-| Attribute        | Description                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| `href`           | URL to navigate to                                                          |
-| `target`         | Where to open the link (`_blank`, `_self`, `_parent`, `_top`)               |
-| `title`          | Tooltip text shown when hovering                                            |
-| `download`       | Prompts browser to download the file instead of navigating to it           |
-| `id`             | Targetable ID for internal linking                                          |
-| `rel`            | Relationship between current and linked page (`nofollow`, `noopener`, etc.)|
-| `ping`           | URLs to send tracking POST requests when the link is clicked                |
+| Attribute  | Description                                                                 |
+| ---------- | --------------------------------------------------------------------------- |
+| `href`     | URL to navigate to                                                          |
+| `target`   | Where to open the link (`_blank`, `_self`, `_parent`, `_top`)               |
+| `title`    | Tooltip text shown when hovering                                            |
+| `download` | Prompts browser to download the file instead of navigating to it            |
+| `id`       | Targetable ID for internal linking                                          |
+| `rel`      | Relationship between current and linked page (`nofollow`, `noopener`, etc.) |
+| `ping`     | URLs to send tracking POST requests when the link is clicked                |
 
 ---
 
 ### **`target` Attribute Values**
 
-| Value      | Description                                     |
-|------------|-------------------------------------------------|
-| `_blank`   | Opens link in a new tab or window               |
-| `_self`    | Default. Opens in the same tab                  |
-| `_parent`  | Opens in the parent frame                       |
-| `_top`     | Opens in the full body of the window (removes frames) |
+| Value     | Description                                           |
+| --------- | ----------------------------------------------------- |
+| `_blank`  | Opens link in a new tab or window                     |
+| `_self`   | Default. Opens in the same tab                        |
+| `_parent` | Opens in the parent frame                             |
+| `_top`    | Opens in the full body of the window (removes frames) |
 
 ---
 
-###  **Best Practice**
+### **Best Practice**
+
 - ✅ Use **descriptive** link text:
   ```html
   <a href="https://news.com">Read Latest News</a>
@@ -313,11 +326,13 @@ The `<a>` tag is used to create **hyperlinks** in HTML. It allows users to navig
 **Purpose:** Makes text **visually bold** without any added importance.
 
 #### Syntax
+
 ```html
 <b>This is bold</b>
 ```
 
-#### Example Output  
+#### Example Output
+
 **This is bold**
 
 ---
@@ -327,40 +342,46 @@ The `<a>` tag is used to create **hyperlinks** in HTML. It allows users to navig
 **Purpose:** Makes text **bold** and gives it **semantic importance** (for screen readers or search engines).
 
 #### Syntax
+
 ```html
 <strong>This is strong</strong>
 ```
 
-#### Example Output  
+#### Example Output
+
 **This is strong**
 
 ---
 
 ### 9. **`<i>` — Italic Text**
 
-**Purpose:** Makes text *italic*, usually for visual styling or foreign words.
+**Purpose:** Makes text _italic_, usually for visual styling or foreign words.
 
 #### Syntax
+
 ```html
 <i>This is italic</i>
 ```
 
-#### Example Output  
-*This is italic*
+#### Example Output
+
+_This is italic_
 
 ---
 
 ### 10. **`<em>` — Emphasis**
 
-**Purpose:** Emphasizes the text. Makes it *italic* and gives it **semantic importance** (like spoken stress).
+**Purpose:** Emphasizes the text. Makes it _italic_ and gives it **semantic importance** (like spoken stress).
 
 #### Syntax
+
 ```html
 <em>This is emphasized</em>
 ```
 
-#### Example Output  
-*This is emphasized*
+#### Example Output
+
+_This is emphasized_
 
 ---
 
@@ -369,11 +390,13 @@ The `<a>` tag is used to create **hyperlinks** in HTML. It allows users to navig
 **Purpose:** Underlines the text. This is purely **visual** and not semantic.
 
 #### Syntax
+
 ```html
 <u>This is underlined</u>
 ```
 
-#### Example Output  
+#### Example Output
+
 <u>This is underlined</u>
 
 ---
@@ -384,11 +407,13 @@ The `<a>` tag is used to create **hyperlinks** in HTML. It allows users to navig
 It’s useful for **search results**, **important highlights**, or to **draw attention**.
 
 #### Syntax
+
 ```html
 <mark>This is highlighted text</mark>
 ```
 
-#### Example Output  
+#### Example Output
+
 <mark>This is highlighted text</mark>
 
 ---
@@ -399,11 +424,13 @@ It’s useful for **search results**, **important highlights**, or to **draw att
 Typically displayed with a **strikethrough**. Useful in **document revisions**, **comparisons**, or **edits**.
 
 #### Syntax
+
 ```html
 <del>This text was removed</del>
 ```
 
-#### Example Output  
+#### Example Output
+
 <del>This text was removed</del>
 
 ## **💡 Combining HTML Text Formatting Tags**
@@ -413,8 +440,9 @@ This is useful for conveying **importance**, **emphasis**, and **styling** all a
 
 ---
 
-### **1. `<strong>` + `<em>`**  
-Emphasized + Important → *Italic and bold* (with semantic meaning)
+### **1. `<strong>` + `<em>`**
+
+Emphasized + Important → _Italic and bold_ (with semantic meaning)
 
 ```html
 <strong><em>This is important and emphasized</em></strong>
@@ -425,7 +453,8 @@ Emphasized + Important → *Italic and bold* (with semantic meaning)
 
 ---
 
-### **2. `<b>` + `<i>`**  
+### **2. `<b>` + `<i>`**
+
 Visual bold + italic (no semantic meaning)
 
 ```html
@@ -437,7 +466,8 @@ Visual bold + italic (no semantic meaning)
 
 ---
 
-### **3. `<u>` + `<strong>`**  
+### **3. `<u>` + `<strong>`**
+
 Underlined + strong emphasis (bold)
 
 ```html
@@ -449,11 +479,14 @@ Underlined + strong emphasis (bold)
 
 ---
 
-### **4. `<mark>` + `<em>` + `<strong>`**  
+### **4. `<mark>` + `<em>` + `<strong>`**
+
 Highlighted + italic + bold — very emphasized and visually highlighted
 
 ```html
-<mark><strong><em>Key Point</em></strong></mark>
+<mark
+  ><strong><em>Key Point</em></strong></mark
+>
 ```
 
 **Output:**  
@@ -461,7 +494,8 @@ Highlighted + italic + bold — very emphasized and visually highlighted
 
 ---
 
-### **5. `<del>` + `<em>`**  
+### **5. `<del>` + `<em>`**
+
 Struck-through and italic — often used to show removed or outdated emphasis
 
 ```html
@@ -473,7 +507,8 @@ Struck-through and italic — often used to show removed or outdated emphasis
 
 ---
 
-### **6. `<u>` + `<mark>`**  
+### **6. `<u>` + `<mark>`**
+
 Underlined and highlighted — eye-catching but not semantically emphasized
 
 ```html
@@ -490,15 +525,15 @@ Underlined and highlighted — eye-catching but not semantically emphasized
 The `<img>` tag is used to embed images into a web page.
 It's a **self-closing** tag that requires at least two attributes:
 
-* `src` – the image URL or file path
-* `alt` – the alternative text shown when the image cannot be displayed
+- `src` – the image URL or file path
+- `alt` – the alternative text shown when the image cannot be displayed
 
 ---
 
 ### **Syntax**
 
 ```html
-<img src="URL" alt="Description">
+<img src="URL" alt="Description" />
 ```
 
 ---
@@ -516,13 +551,16 @@ It's a **self-closing** tag that requires at least two attributes:
 **Absolute URL:**
 
 ```html
-<img src="https://m.media-amazon.com/images/I/71O-Os4GilL._UF1000,1000_QL80_.jpg" alt="100 Days Challenge">
+<img
+  src="https://m.media-amazon.com/images/I/71O-Os4GilL._UF1000,1000_QL80_.jpg"
+  alt="100 Days Challenge"
+/>
 ```
 
 **Relative URL:**
 
 ```html
-<img src="images/100days.jpg" alt="100 Days Challenge">
+<img src="images/100days.jpg" alt="100 Days Challenge" />
 ```
 
 ---
@@ -532,31 +570,34 @@ It's a **self-closing** tag that requires at least two attributes:
 #### 1. Basic Image
 
 ```html
-<img src="https://m.media-amazon.com/images/I/71O-Os4GilL._UF1000,1000_QL80_.jpg" alt="100 Days Challenge">
+<img
+  src="https://m.media-amazon.com/images/I/71O-Os4GilL._UF1000,1000_QL80_.jpg"
+  alt="100 Days Challenge"
+/>
 ```
 
 #### 2. With Width and Height
 
 ```html
-<img src="..." width="300" height="300" alt="100 Days Challenge">
+<img src="..." width="300" height="300" alt="100 Days Challenge" />
 ```
 
 #### 3. With Tooltip (title)
 
 ```html
-<img src="..." alt="100 Days Challenge" title="100 Days UI Challenge">
+<img src="..." alt="100 Days Challenge" title="100 Days UI Challenge" />
 ```
 
 #### 4. Lazy Loading
 
 ```html
-<img src="..." loading="lazy" alt="100 Days Challenge">
+<img src="..." loading="lazy" alt="100 Days Challenge" />
 ```
 
 #### 5. Broken Image Example
 
 ```html
-<img src="invalid.jpg" alt="Image not found">
+<img src="invalid.jpg" alt="Image not found" />
 ```
 
 ---
@@ -578,17 +619,214 @@ It's a **self-closing** tag that requires at least two attributes:
 
 ### **Best Practices**
 
-* ✅ Use `alt` for screen readers and fallback
-* ✅ Use `loading="lazy"` to speed up loading
-* ✅ Specify `width` and `height` to reduce layout shift
-* ✅ Use compressed/optimized images
-* ❌ Avoid using large or raw images directly
+- Use `alt` for screen readers and fallback
+- Use `loading="lazy"` to speed up loading
+- Specify `width` and `height` to reduce layout shift
+- Use compressed/optimized images
+- Avoid using large or raw images directly
 
 ---
 
 ### **Accessibility Tip**
 
 > Always write meaningful `alt` text so users with screen readers can understand the image's purpose.
+
+---
+
+Here's the **Markdown version** of your complete HTML **List Tags** explanation — including theory, syntax, examples, and list marker types — written cleanly with fenced code blocks.
+
+---
+
+## 15. HTML List Tags
+
+HTML provides three types of lists:
+
+- **Unordered List (`<ul>`)** – Bulleted list
+- **Ordered List (`<ol>`)** – Numbered or lettered list
+- **Description List (`<dl>`)** – Term and description pairs
+
+---
+
+### 1. Unordered List (`<ul>`)
+
+Used for lists where the order doesn't matter.
+
+#### 🔧 Syntax:
+
+```html
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+```
+
+#### Example:
+
+- Frontend
+- Backend
+- Database
+
+---
+
+### 2. Ordered List (`<ol>`)
+
+Used when the order of items is important (steps, rankings, etc.).
+
+#### 🔧 Syntax:
+
+```html
+<ol>
+  <li>Step 1</li>
+  <li>Step 2</li>
+</ol>
+```
+
+#### Example:
+
+1. Install Python
+2. Write Code
+3. Run Script
+
+---
+
+#### Ordered List Types (`type` attribute)
+
+You can change number format:
+
+- `type="1"` – Numbers (default)
+- `type="A"` – Uppercase Letters
+- `type="a"` – Lowercase Letters
+- `type="I"` – Uppercase Roman
+- `type="i"` – Lowercase Roman
+
+#### 🔧 Example:
+
+```html
+<ol type="A">
+  <li>Apple</li>
+  <li>Banana</li>
+</ol>
+```
+
+A. Apple
+B. Banana
+
+---
+
+#### Start and Value Attributes
+
+- `start` – begin list from a custom number
+- `value` – override number for specific `<li>`
+
+```html
+<ol start="5">
+  <li>Fifth Step</li>
+</ol>
+
+<ol>
+  <li value="10">Manual Start</li>
+</ol>
+```
+
+---
+
+### 3. Description List (`<dl>`)
+
+Used for dictionary-like definitions or FAQs.
+
+#### Syntax:
+
+```html
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+</dl>
+```
+
+#### Example:
+
+**HTML**
+→ HyperText Markup Language
+**CSS**
+→ Cascading Style Sheets
+
+---
+
+### 4. Nested Lists
+
+Lists inside lists.
+
+#### Syntax:
+
+```html
+<ul>
+  <li>
+    Main
+    <ul>
+      <li>Sub-item</li>
+    </ul>
+  </li>
+</ul>
+```
+
+- Frontend
+
+  - HTML
+  - CSS
+
+- Backend
+
+  - Node.js
+  - PHP
+
+---
+
+### 5. Unordered List Marker Types (Without CSS)
+
+You can use the `type` attribute in `<ul>` to change the bullet style.
+
+| Type     | Bullet Style    |
+| -------- | --------------- |
+| default  | ● Filled Circle |
+| `circle` | ○ Hollow Circle |
+| `square` | ■ Square        |
+
+#### Syntax and Examples:
+
+```html
+<ul>
+  <li>● Frontend</li>
+</ul>
+
+<ul type="circle">
+  <li>○ HTML</li>
+</ul>
+
+<ul type="square">
+  <li>■ Node.js</li>
+</ul>
+```
+
+---
+
+### Common Attributes
+
+| Tag    | Attribute | Description                           |
+| ------ | --------- | ------------------------------------- |
+| `<ol>` | `type`    | Format (1, A, a, i, I)                |
+| `<ol>` | `start`   | Start numbering from custom value     |
+| `<li>` | `value`   | Override number of specific list item |
+| `<ul>` | `type`    | Bullet style (disc, circle, square)   |
+
+---
+
+### Best Practices
+
+- Use `<ul>` when order doesn't matter
+- Use `<ol>` for steps, processes, or rankings
+- Use `<dl>` for glossaries or definitions
+- Avoid deeply nested lists for readability
+- Always pair `<dt>` with `<dd>` in description lists
 
 ---
 
