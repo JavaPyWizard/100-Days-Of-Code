@@ -45,5 +45,21 @@
 
 ---
 
+#### ✅ **Day 4 – July 4**
+- **DSA:**  
+  ▸ *No activity today*
+  
+- **Data Science:**  
+  ▸ Practiced basic Python syntax: with examples
+  
+- **Web Development:**  
+  ▸ Studied basic HTML tags and structure:  
+    ▸ `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`  
+    ▸ Text tags: `<h1>` to `<h6>`, `<p>`, `<pre>`, `<br>`, `<hr>`  
+    ▸ Formatting tags: `<b>`, `<i>`, `<u>`, `<strong>`, `<em>`, `<del>`, `<mark` and their combinations
+    ▸ Link tag: `<a>`  
+    ▸ Image tag: `<img>`  
+    ▸ List tags: `<ul>`, `<ol>`, `<li>`
+
 
 > “Discipline is choosing between what you want now and what you want most.” – Abraham Lincoln
