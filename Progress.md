@@ -19,7 +19,8 @@
   ▸ Set up `ml-env` virtual environment  
   ▸ Installed JupyterLab and NumPy  
 - **Web Development:**  
-  ▸ Learned HTML basics (structure)
+  ▸ Studied basic HTML structure:  
+    ▸ `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`
 
 ---
 
@@ -53,8 +54,7 @@
   ▸ Practiced basic Python syntax: with examples
   
 - **Web Development:**  
-  ▸ Studied basic HTML tags and structure:  
-    ▸ `<!DOCTYPE html>`, `<html>`, `<head>`, `<title>`, `<body>`  
+  ▸ Studied basic HTML tags: 
     ▸ Text tags: `<h1>` to `<h6>`, `<p>`, `<pre>`, `<br>`, `<hr>`  
     ▸ Formatting tags: `<b>`, `<i>`, `<u>`, `<strong>`, `<em>`, `<del>`, `<mark` and their combinations
     ▸ Link tag: `<a>`  
