@@ -829,4 +829,3 @@ You can use the `type` attribute in `<ul>` to change the bullet style.
 - Always pair `<dt>` with `<dd>` in description lists
 
 ---
-
