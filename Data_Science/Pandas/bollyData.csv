@@ -1,0 +1,51 @@
+Title,Year,Genre,Director,Actors,Language,Runtime (min),Budget (INR Cr),BoxOffice (INR Cr),IMDb,Production House,Awards Won,Is_Hit
+Dilwale Dulhania Le Jayenge,1999,Biopic|Romance,Anurag Kashyap,Ranveer Singh|Ayushmann Khurrana|Aamir Khan,Hindi,178,270.26,738.92,9.4,Viacom18 Studios,0,No
+3 Idiots,2024,Drama|Historical,Rajkumar Hirani,Priyanka Chopra|Salman Khan|Ranbir Kapoor,Telugu,103,157.87,676.66,7.8,Red Chillies Entertainment,17,Average
+Dangal,2018,Drama|Comedy,Rohit Shetty,Aamir Khan|Deepika Padukone|Ranbir Kapoor,Bengali,131,22.96,59.67,7.3,T-Series,6,Average
+Sholay,2011,Comedy|Action,Anurag Kashyap,Deepika Padukone|Alia Bhatt|Aamir Khan,Hindi,152,197.13,1127.47,5.4,Yash Raj Films,17,No
+Lagaan,2018,Action|Musical,Sanjay Leela Bhansali,Salman Khan|Ranbir Kapoor|Shah Rukh Khan,Punjabi,172,209.45,559.89,7.4,Excel Entertainment,6,No
+PK,2014,Historical|Thriller,Zoya Akhtar,Deepika Padukone|Alia Bhatt|Ranveer Singh,Tamil,140,156.02,1181.74,8.2,Red Chillies Entertainment,11,Yes
+Bajrangi Bhaijaan,1996,Comedy|Romance,Karan Johar,Deepika Padukone|Ranbir Kapoor|Ayushmann Khurrana,Tamil,126,90.9,735.95,6.9,Balaji Motion Pictures,5,Average
+Kabir Singh,1999,Biopic|Drama,Rohit Shetty,Alia Bhatt|Aamir Khan|Ayushmann Khurrana,Bengali,133,202.55,1008.79,3.2,Viacom18 Studios,13,Yes
+Gully Boy,2000,Drama|Thriller,Anurag Kashyap,Shah Rukh Khan|Deepika Padukone|Kareena Kapoor,Punjabi,95,86.53,1123.16,8.0,Balaji Motion Pictures,20,Average
+Barfi!,2007,Drama|Thriller,Rohit Shetty,Ayushmann Khurrana|Deepika Padukone|Ranbir Kapoor,Hindi,158,176.52,742.85,8.1,T-Series,10,No
+Tamasha,2022,Action|Musical,Meghna Gulzar,Ranbir Kapoor|Priyanka Chopra|Kareena Kapoor,Hindi,104,27.26,123.15,5.1,T-Series,12,Average
+Zindagi Na Milegi Dobara,2003,Comedy|Comedy,Rajkumar Hirani,Alia Bhatt|Ranbir Kapoor|Ayushmann Khurrana,Punjabi,167,119.86,1163.08,7.0,Dharma Productions,10,Yes
+Chak De! India,2016,Thriller|Comedy,Zoya Akhtar,Salman Khan|Ranveer Singh|Deepika Padukone,Telugu,128,81.17,1040.2,9.1,Yash Raj Films,6,Average
+Swades,2010,Romance|Action,Karan Johar,Ranveer Singh|Shah Rukh Khan|Salman Khan,Bengali,142,233.74,1016.27,5.4,Yash Raj Films,17,Average
+My Name is Khan,1996,Biopic|Drama,Karan Johar,Priyanka Chopra|Salman Khan|Ranbir Kapoor,Hindi,138,126.52,51.16,4.4,Excel Entertainment,6,Average
+Kal Ho Naa Ho,1999,Action|Historical,Meghna Gulzar,Ranveer Singh|Aamir Khan|Ayushmann Khurrana,Telugu,133,88.57,1064.36,6.9,Red Chillies Entertainment,13,Yes
+Queen,1997,Historical|Historical,Karan Johar,Salman Khan|Kareena Kapoor|Shah Rukh Khan,Punjabi,139,40.71,1089.34,9.0,Viacom18 Studios,18,No
+Kahaani,1995,Romance|Historical,Rohit Shetty,Deepika Padukone|Shah Rukh Khan|Kareena Kapoor,Punjabi,90,180.26,390.74,8.0,Red Chillies Entertainment,9,Yes
+Drishyam,2018,Romance|Musical,Rajkumar Hirani,Ranbir Kapoor|Alia Bhatt|Ranveer Singh,Bengali,95,53.55,100.76,7.2,Balaji Motion Pictures,5,Average
+Raazi,1997,Romance|Musical,Rajkumar Hirani,Aamir Khan|Kareena Kapoor|Salman Khan,Telugu,116,107.91,608.12,4.7,Dharma Productions,4,No
+Andhadhun,2018,Musical|Action,Rohit Shetty,Ranbir Kapoor|Priyanka Chopra|Aamir Khan,Telugu,101,251.8,805.31,6.3,Viacom18 Studios,5,Yes
+Tanu Weds Manu,1990,Biopic|Thriller,Rohit Shetty,Kareena Kapoor|Priyanka Chopra|Ranbir Kapoor,Telugu,144,284.9,756.52,7.8,Dharma Productions,13,Yes
+Piku,1997,Historical|Action,Zoya Akhtar,Salman Khan|Aamir Khan|Priyanka Chopra,Hindi,151,35.19,116.49,8.2,Balaji Motion Pictures,11,No
+Bhaag Milkha Bhaag,1996,Biopic|Romance,Sanjay Leela Bhansali,Deepika Padukone|Kareena Kapoor|Aamir Khan,Tamil,163,141.59,266.6,7.2,Dharma Productions,18,Average
+Neerja,2002,Romance|Musical,Rohit Shetty,Deepika Padukone|Salman Khan|Kareena Kapoor,Telugu,99,15.88,795.39,3.6,Yash Raj Films,14,No
+Uri: The Surgical Strike,2021,Musical|Musical,Meghna Gulzar,Ranveer Singh|Ayushmann Khurrana|Aamir Khan,Punjabi,152,120.99,40.05,6.9,Excel Entertainment,16,Average
+Article 15,2011,Drama|Historical,Rohit Shetty,Kareena Kapoor|Salman Khan|Shah Rukh Khan,Hindi,177,296.93,303.52,8.7,Viacom18 Studios,13,Average
+Stree,2002,Drama|Drama,Rajkumar Hirani,Shah Rukh Khan|Ranbir Kapoor|Ranveer Singh,Bengali,106,283.14,24.14,3.0,Dharma Productions,14,Average
+Badhaai Ho,2004,Drama|Romance,Imtiaz Ali,Salman Khan|Shah Rukh Khan|Ayushmann Khurrana,Telugu,166,270.66,466.32,7.9,Dharma Productions,8,Average
+Panga,2015,Musical|Biopic,Zoya Akhtar,Kareena Kapoor|Ranbir Kapoor|Alia Bhatt,Punjabi,140,285.21,256.94,6.7,Red Chillies Entertainment,11,Average
+The Lunchbox,2012,Drama|Drama,Zoya Akhtar,Ayushmann Khurrana|Ranveer Singh|Kareena Kapoor,Telugu,149,248.06,997.4,8.2,Balaji Motion Pictures,18,Average
+Masaan,1997,Comedy|Thriller,Karan Johar,Ranveer Singh|Ranbir Kapoor|Deepika Padukone,Hindi,114,115.72,206.5,5.0,Yash Raj Films,17,No
+Rockstar,2003,Historical|Biopic,Sanjay Leela Bhansali,Alia Bhatt|Priyanka Chopra|Shah Rukh Khan,Tamil,99,216.04,1013.32,8.0,Balaji Motion Pictures,14,Average
+Haider,2008,Thriller|Action,Sanjay Leela Bhansali,Aamir Khan|Kareena Kapoor|Ranbir Kapoor,Punjabi,94,94.57,578.8,6.0,Yash Raj Films,9,No
+Talvar,1995,Biopic|Comedy,Meghna Gulzar,Kareena Kapoor|Priyanka Chopra|Deepika Padukone,Punjabi,143,62.29,412.23,8.9,Yash Raj Films,15,Yes
+Pink,2010,Thriller|Romance,Rajkumar Hirani,Alia Bhatt|Ranveer Singh|Deepika Padukone,Tamil,166,23.31,251.02,5.3,T-Series,19,Average
+Rang De Basanti,2023,Romance|Drama,Rajkumar Hirani,Aamir Khan|Ayushmann Khurrana|Salman Khan,Telugu,140,180.9,494.9,6.0,Red Chillies Entertainment,14,No
+Airlift,2014,Biopic|Biopic,Karan Johar,Priyanka Chopra|Ranbir Kapoor|Ayushmann Khurrana,Tamil,137,50.85,675.38,9.4,T-Series,19,Yes
+Super 30,2002,Drama|Drama,Zoya Akhtar,Ayushmann Khurrana|Aamir Khan|Alia Bhatt,Tamil,163,207.11,706.22,8.0,Red Chillies Entertainment,11,Average
+Kesari,2002,Action|Thriller,Zoya Akhtar,Aamir Khan|Ranbir Kapoor|Alia Bhatt,Hindi,166,272.75,118.64,6.1,Dharma Productions,11,Average
+War,2002,Musical|Comedy,Meghna Gulzar,Alia Bhatt|Salman Khan|Priyanka Chopra,Tamil,146,103.23,53.57,7.8,Red Chillies Entertainment,12,Yes
+Sultan,1998,Biopic|Biopic,Zoya Akhtar,Alia Bhatt|Aamir Khan|Ranveer Singh,Hindi,133,269.68,276.96,9.0,Balaji Motion Pictures,5,Average
+Padmaavat,1994,Thriller|Drama,Rajkumar Hirani,Ranbir Kapoor|Priyanka Chopra|Shah Rukh Khan,Telugu,156,156.59,623.39,3.2,Balaji Motion Pictures,13,Yes
+Sanju,1998,Historical|Action,Rajkumar Hirani,Aamir Khan|Ranveer Singh|Ayushmann Khurrana,Hindi,113,62.91,29.0,6.3,Viacom18 Studios,4,Average
+Baahubali,2002,Action|Musical,Rajkumar Hirani,Priyanka Chopra|Deepika Padukone|Ayushmann Khurrana,Telugu,167,17.68,756.99,8.4,T-Series,20,Average
+Baahubali 2,1999,Action|Action,Meghna Gulzar,Ranveer Singh|Priyanka Chopra|Kareena Kapoor,Punjabi,170,174.09,710.31,6.0,Yash Raj Films,18,Yes
+Ra.One,2006,Biopic|Biopic,Sanjay Leela Bhansali,Alia Bhatt|Ranbir Kapoor|Kareena Kapoor,Punjabi,150,73.16,87.7,9.0,Yash Raj Films,19,Average
+Don 2,2025,Romance|Romance,Imtiaz Ali,Ranveer Singh|Alia Bhatt|Priyanka Chopra,Punjabi,112,248.24,81.65,7.6,Red Chillies Entertainment,4,Average
+Jab Tak Hai Jaan,2011,Musical|Biopic,Rohit Shetty,Ranbir Kapoor|Ayushmann Khurrana|Salman Khan,Telugu,104,245.25,213.93,4.8,Yash Raj Films,9,Yes
+Zero,2014,Comedy|Thriller,Meghna Gulzar,Ayushmann Khurrana|Priyanka Chopra|Ranveer Singh,Tamil,113,40.9,724.19,3.2,Balaji Motion Pictures,8,Average
