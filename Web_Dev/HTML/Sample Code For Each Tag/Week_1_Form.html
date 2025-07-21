@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Complete HTML Form Example</title>
+  </head>
+  
+  <body>
+    <h1>Registration Form</h1>
+
+    <form action="/submit" method="post" enctype="multipart/form-data">
+      <!-- Username -->
+      <label for="username">Username:</label><br />
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter your username"
+        required
+      /><br /><br />
+
+      <!-- Email -->
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="you@example.com"
+        required
+      /><br /><br />
+
+      <!-- Password -->
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        minlength="6"
+        required
+      /><br /><br />
+
+      <!-- Age (Number) -->
+      <label for="age">Age:</label><br />
+      <input type="number" id="age" name="age" min="10" max="100" /><br /><br />
+
+      <!-- Date of Birth -->
+      <label for="dob">Date of Birth:</label><br />
+      <input type="date" id="dob" name="dob" /><br /><br />
+
+      <!-- Gender (Radio) -->
+      <label>Gender:</label><br />
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br /><br />
+
+      <!-- Skills (Checkbox) -->
+      <label>Skills:</label><br />
+      <input type="checkbox" id="html" name="skills" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="checkbox" id="css" name="skills" value="CSS" />
+      <label for="css">CSS</label><br />
+      <input type="checkbox" id="js" name="skills" value="JavaScript" />
+      <label for="js">JavaScript</label><br /><br />
+
+      <!-- Country (Select) -->
+      <label for="country">Country:</label><br />
+      <select id="country" name="country" required>
+        <option value="">--Select--</option>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option></select
+      ><br /><br />
+
+      <!-- About You (Textarea) -->
+      <label for="about">About You:</label><br />
+      <textarea
+        id="about"
+        name="about"
+        rows="5"
+        cols="40"
+        placeholder="Tell us about yourself..."
+      ></textarea
+      ><br /><br />
+
+      <!-- Resume Upload (File Input) -->
+      <label for="resume">Upload Resume (PDF only):</label><br />
+      <input type="file" id="resume" name="resume" accept=".pdf" /><br /><br />
+
+      <!-- Submit and Reset Buttons -->
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

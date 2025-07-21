@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Complete HTML Table Example</title>
+  </head>
+  <body>
+    <h1>Student Report Table</h1>
+
+    <table border="1">
+      <!-- Table Caption -->
+      <caption>
+        <strong>Semester Result - 2025</strong>
+      </caption>
+
+      <!-- Column Group Styling -->
+      <colgroup>
+        <col style="background-color: #f2f2f2" />
+        <!-- Name Column -->
+        <col span="2" style="background-color: #e6f7ff" />
+        <!-- Subject Columns -->
+        <col style="background-color: #fdf5e6" />
+        <!-- Average -->
+      </colgroup>
+
+      <!-- Table Header -->
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Math</th>
+          <th scope="col">Science</th>
+          <th scope="col">Average</th>
+        </tr>
+      </thead>
+
+      <!-- Table Body -->
+      <tbody>
+        <tr>
+          <td>Divyansh</td>
+          <td>90</td>
+          <td>85</td>
+          <td>87.5</td>
+        </tr>
+        <tr>
+          <td>Akshay</td>
+          <td>95</td>
+          <td>92</td>
+          <td>93.5</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Amit (Retake)</td>
+          <td>70</td>
+          <td>60</td>
+          <td>65</td>
+        </tr>
+        <tr>
+          <td colspan="2">Retake Scheduled</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+
+      <!-- Table Footer -->
+      <tfoot>
+        <tr>
+          <td><strong>Average</strong></td>
+          <td>85</td>
+          <td>79</td>
+          <td>82</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
