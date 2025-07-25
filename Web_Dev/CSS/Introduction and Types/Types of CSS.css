@@ -1,0 +1,16 @@
+h1 {
+  background-color: rgb(153, 243, 243);
+  color: rgb(133, 104, 6);
+}
+
+div {
+  color: rgb(17, 163, 76);
+  background-color: antiquewhite;
+}
+
+P,
+h1 {
+  border-width: 0.2cm;
+  border-color: blue;
+  border-style: double;
+}
