@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Layout and Positioning</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        height: 2000px; /* Made page taller for scrolling */
+      }
+
+      /* Display examples */
+      .block-box {
+        display: block;
+        background-color: lightblue;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      .inline-box {
+        display: inline;
+        background-color: lightgreen;
+        padding: 10px;
+      }
+
+      .inline-block-box {
+        display: inline-block;
+        background-color: orange;
+        width: 150px;
+        height: 100px;
+        text-align: center;
+        margin-right: 10px;
+      }
+
+      /* Position examples */
+      .relative-box {
+        position: relative;
+        top: 10px;
+        left: 20px;
+        background-color: salmon;
+        padding: 10px;
+      }
+
+      /* Container for absolute positioning - made taller */
+      .absolute-container {
+        position: relative;
+        height: 300px; /* Increased height */
+        border: 1px dashed #ccc;
+        margin-bottom: 20px;
+        background-color: #f5f5f5;
+      }
+
+      .absolute-box {
+        position: absolute;
+        top: 50px; /* Adjusted position */
+        right: 50px;
+        background-color: violet;
+        padding: 10px;
+        width: 200px;
+      }
+
+      .fixed-box {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: teal;
+        color: white;
+        padding: 10px;
+        width: 200px;
+      }
+
+      /* Z-index */
+      .z-index-parent {
+        position: relative;
+        height: 100px;
+      }
+
+      .z-box1 {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: red;
+        padding: 20px;
+        z-index: 1;
+      }
+
+      .z-box2 {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        background: yellow;
+        padding: 20px;
+        z-index: 2;
+      }
+
+      /* Visibility */
+      .hidden-box {
+        background: gray;
+        padding: 10px;
+        visibility: hidden;
+      }
+
+      /* Overflow */
+      .overflow-box {
+        width: 200px;
+        height: 80px;
+        overflow: auto;
+        border: 1px solid black;
+        padding: 10px;
+      }
+
+      /* Float & Clear */
+      .float-box {
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+        background: lightcoral;
+      }
+
+      .cleared {
+        clear: both;
+        background: lightgray;
+        padding: 10px;
+      }
+
+      /* Added spacing between sections */
+      hr {
+        margin: 30px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Display Examples</h2>
+    <div class="block-box">Block Element</div>
+    <span class="inline-box">Inline Element</span>
+    <div class="inline-block-box">Inline-Block</div>
+    <div class="inline-block-box">Another Box</div>
+
+    <hr />
+
+    <h2>Position Examples</h2>
+    <div class="relative-box">Relative Positioned Box (shifted 10px down and 20px right from normal position)</div>
+    
+    <div class="absolute-container">
+      <p>This container has position: relative (height: 300px)</p>
+      <div class="absolute-box">
+        Absolute Box (positioned 50px from top and 50px from right of container)
+        <br><br>
+        Scroll the page - I stay in place relative to my container
+      </div>
+    </div>
+    
+    <div class="fixed-box">
+      Fixed Box (always at bottom right of viewport)
+      <br><br>
+      Scroll the page - I stay fixed in the viewport
+    </div>
+
+    <hr />
+
+    <h2>Z-Index Example</h2>
+    <div class="z-index-parent">
+      <div class="z-box1">Box 1 (z-index: 1)</div>
+      <div class="z-box2">Box 2 (z-index: 2)</div>
+    </div>
+
+    <hr />
+
+    <h2>Visibility Example</h2>
+    <div class="hidden-box">This is hidden (but takes up space)</div>
+    <p>This is visible</p>
+
+    <hr />
+
+    <h2>Overflow Example</h2>
+    <div class="overflow-box">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
+      perspiciatis unde omnis iste natus error sit voluptatem accusantium
+      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+      inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+    </div>
+
+    <hr />
+
+    <h2>Float and Clear</h2>
+    <div class="float-box">Floated Left</div>
+    <div class="float-box">Floated Left</div>
+    <div class="cleared">This clears the float above.</div>
+    
+    <!-- Added filler content to make page scrollable -->
+    <div style="height: 800px; margin-top: 50px; border-top: 1px solid #eee; padding-top: 20px;">
+      <p>Scroll down to see how the fixed and absolute positioned elements behave differently.</p>
+      <p>The absolute box stays positioned relative to its container, while the fixed box stays in the same viewport position.</p>
+    </div>
+  </body>
+</html>
