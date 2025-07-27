@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Positioning Explained: Sticky vs Absolute vs Fixed</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      /* Explanation section */
+      .explanation {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-bottom: 2px solid #ddd;
+      }
+
+      /* Long content to make scroll */
+      .content {
+        height: 2000px;
+        padding: 120px 40px 40px;
+        background: linear-gradient(to bottom, #f5f5f5, #e0e0e0);
+      }
+
+      /* Sticky Header */
+      .sticky-box {
+        position: sticky;
+        top: 0;
+        background-color: #ff9800;
+        color: white;
+        padding: 15px;
+        font-weight: bold;
+        border-bottom: 3px solid #e65100;
+        z-index: 100;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Fixed Box */
+      .fixed-box {
+        position: fixed;
+        top: 120px;
+        right: 20px;
+        background-color: #2196f3;
+        color: white;
+        padding: 15px;
+        border: 3px solid #0d47a1;
+        border-radius: 5px;
+        width: 200px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Absolute Box */
+      .absolute-container {
+        position: relative;
+        height: 300px;
+        background-color: #4caf50;
+        margin: 40px;
+        padding: 20px;
+        border-radius: 5px;
+        border: 3px solid #2e7d32;
+      }
+
+      .absolute-box {
+        position: absolute;
+        top: 50px;
+        left: 20px;
+        background-color: #2e7d32;
+        color: white;
+        padding: 15px;
+        border-radius: 5px;
+        width: 200px;
+      }
+
+      /* Floating labels */
+      .position-label {
+        position: absolute;
+        font-size: 12px;
+        font-weight: bold;
+        background: white;
+        padding: 2px 5px;
+        border-radius: 3px;
+      }
+
+      /* Scroll indicator */
+      .scroll-hint {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        animation: bounce 2s infinite;
+      }
+
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateX(-50%) translateY(0);
+        }
+        50% {
+          transform: translateX(-50%) translateY(-10px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="explanation">
+      <h1>CSS Positioning Explained</h1>
+      <p>This demo shows the difference between three CSS positioning types:</p>
+      <ul>
+        <li>
+          <strong>Sticky</strong> (orange bar) - Sticks to top when scrolling
+        </li>
+        <li>
+          <strong>Fixed</strong> (blue box) - Always stays in same screen
+          position
+        </li>
+        <li>
+          <strong>Absolute</strong> (green box) - Positioned relative to its
+          parent container
+        </li>
+      </ul>
+    </div>
+
+    <div class="sticky-box">
+      Sticky Navigation Bar (sticks to top when scrolling)
+      <span class="position-label" style="right: 20px; top: 5px"
+        >position: sticky</span
+      >
+    </div>
+
+    <div class="fixed-box">
+      Fixed Position Box
+      <span class="position-label" style="right: 5px; top: 5px"
+        >position: fixed</span
+      >
+      <p>I stay in the same place on screen even when scrolling</p>
+    </div>
+
+    <div class="absolute-container">
+      <span class="position-label" style="left: 20px; top: 5px"
+        >position: relative (container)</span
+      >
+      <div class="absolute-box">
+        Absolute Position Box
+        <span
+          class="position-label"
+          style="right: 5px; top: 5px; background: #2e7d32; color: white"
+          >position: absolute</span
+        >
+        <p>I'm positioned relative to my green container</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>Scroll down to see the behavior</h2>
+      <p>As you scroll:</p>
+      <ul>
+        <li>
+          The orange sticky bar will stick to the top when you scroll past it
+        </li>
+        <li>The blue fixed box will stay in the same screen position</li>
+        <li>
+          The green absolute box will stay positioned relative to its container
+        </li>
+      </ul>
+      <p>Keep scrolling down to see the differences...</p>
+      <div style="height: 1000px"></div>
+      <p>Notice how the elements behave differently as you scroll.</p>
+    </div>
+
+    <div class="scroll-hint">Scroll down ↑↓</div>
+  </body>
+</html>
